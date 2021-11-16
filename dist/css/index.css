@@ -21,15 +21,41 @@ body {
   background-color: #E4E4E4;
 }
 
-p {
-  color: #6e8ca0;
-  font-size: 1.875rem;
-  font-weight: bold;
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 82px;
+  padding: 20px;
+  border: solid 1px #E4E4E4;
 }
 
-a {
-  list-style: none;
-  text-decoration: none;
-  font-size: 35;
-  color: #d95454;
+.NavBar h1 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.InputSeach {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 45px;
+  margin: 2em;
+  border-radius: 6px;
+  background-color: #E4E4E4;
+  color: #c8d1d3;
+}
+
+#mySearch {
+  border: none;
+  font-size: 0.9375rem;
+  background-color: #E4E4E4;
+  color: #c8d1d3;
+}
+
+::placeholder {
+  color: #b9b0a2;
+  opacity: 1;
+  /* Firefox */
+  font-size: 0.9375rem;
 }

@@ -4,18 +4,16 @@
 @import "variables";
 @import "colours";
 
-
- #wrapper {
- 	max-width: 960px;
-	margin: 0 auto;
- 	overflow: hidden;
-     background-color: map.get($colours, "Snow");
-
- }
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: map.get($colours, "Snow");
+}
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* img {
@@ -23,19 +21,46 @@
 	height: auto;
 	display: block;
 } */
- body {
+body {
     background-color: map.get($colours, "BodyBackg");
-} 
-
-p {
-    color: map-get($colours, "Slate" );
-    font-size: 1.875rem;
-    font-weight: bold;
 }
 
-a {
-    list-style: none;
-    text-decoration: none;
-    font-size: $Max;
-    color: map-get($colours, "Danger" );
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 82px;
+    padding: 20px;
+    border: solid 1px map.get($colours, "BodyBackg");
 }
+
+.NavBar h1 {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+//----------------INput Seach
+
+.InputSeach {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     height: 45px;
+    margin: 2em;
+    border-radius: 6px;
+    background-color: map.get($colours, "BodyBackg");
+    color: map.get($colours, "Fossil");
+
+}
+#mySearch {
+    border: none;
+    font-size: 0.9375rem;
+    background-color: map.get($colours, "BodyBackg");
+    color: map.get($colours, "Fossil");
+}
+::placeholder {
+    color: map.get($colours, "Sand");
+    opacity: 1; /* Firefox */
+    font-size: 0.9375rem;
+  }
+
