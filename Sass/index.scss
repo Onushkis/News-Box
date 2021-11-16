@@ -1,0 +1,41 @@
+@use "sass:math";
+@use "sass:map";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+@import "variables";
+@import "colours";
+
+
+ #wrapper {
+ 	max-width: 960px;
+	margin: 0 auto;
+ 	overflow: hidden;
+     background-color: map.get($colours, "Snow");
+
+ }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* img {
+	width: 100%;
+	height: auto;
+	display: block;
+} */
+ body {
+    background-color: map.get($colours, "BodyBackg");
+} 
+
+p {
+    color: map-get($colours, "Slate" );
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    font-size: $Max;
+    color: map-get($colours, "Danger" );
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* img {
+	width: 100%;
+	height: auto;
+	display: block;
+} */
+body {
+  background-color: #E4E4E4;
+}
+
+p {
+  color: #6e8ca0;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 35;
+  color: #d95454;
+}
