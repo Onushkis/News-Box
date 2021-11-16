@@ -1,50 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
     <!--CSS-->
-    <link rel="stylesheet" href="./dist/css/index.css">
+    <link rel="stylesheet" href="./dist/css/index.css" />
     <!--FontAwesome-->
-    <script src="https://kit.fontawesome.com/ab77d23a81.js" crossorigin="anonymous"></script>
-        <!--Axios-->
+    <script
+      src="https://kit.fontawesome.com/ab77d23a81.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Axios-->
     <script src="./node_modules/axios/dist/axios.min.js"></script>
     <!--Animate.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>News Box</title>
-</head>
+  </head>
 
+  <body>
+    <!------------------------------------------------------NAV-->
 
-<body>
-    <div id="wrapper"> 
+    <div id="wrapper">
+      <nav class="NavBar">
+        <i class="fas fa-inbox"></i>
+        <h1>NewsBox</h1>
+        <i class="fas fa-cog"></i>
+      </nav>
+      <!--------------------------------------------------------FORM-->
 
-        
-        <nav class = "NavBar">
-            <i class="fas fa-inbox"></i>
-            <h1>NewsBox</h1>
-            <i class="fas fa-cog"></i>
+      <form>
+        <div class="InputSeach">
+          <input type="search" id="mySearch" name="q" placeholder="Search " />
+          <i class="fas fa-search"></i>
+        </div>
+      </form>
+      <!--------------------------------------------------------MAIN-->
+      <main class="Main">
+        <div class="Main__title">
+          <div class="Main__titleIcons">
+            <i class="fas fa-chart-line 3x"></i>
+            <h2>Health</h2>
             
-        </nav>
-
-        <form>
-            <div class = "InputSeach">
-              <input type="search" id="mySearch" name="q" 
-               placeholder="Search " > 
-              <i class="fas fa-search"></i>
-            </div>
-          </form>
-
+          </div>
+            <i class="fas fa-arrow-down"></i>
+        </div>
          
-   
-</div> <!--Wrapper ends-->
-    <script src="./dist/js/index.js"></script>
- 
-</body>
+          <div>
+            <h2>Headline</h2>
+            <p>
+              Surfing is a surface water sport in which the wave rider, referred
+              to as...
+            </p>
+          </div>
+        
 
+        <div class="Main__titleP">
+          <img src="./img/Travellig.png" alt="traveling" />
+        </div>
+      </main>
+    </div>
+    <!--Wrapper ends-->
+    <script src="./dist/js/index.js"></script>
+  </body>
 </html>
