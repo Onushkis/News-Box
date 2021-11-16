@@ -40,7 +40,9 @@ body {
 }
 
 //----------------INput Seach
-
+form{
+    border: solid 1px#E4E4E4;
+}
 .InputSeach {
     display: flex;
     align-items: center;
@@ -50,6 +52,8 @@ body {
     border-radius: 6px;
     background-color: map.get($colours, "BodyBackg");
     color: map.get($colours, "Fossil");
+    border: solid 1px#E4E4E4;
+    
 
 }
 #mySearch {
@@ -57,10 +61,27 @@ body {
     font-size: 0.9375rem;
     background-color: map.get($colours, "BodyBackg");
     color: map.get($colours, "Fossil");
+   
 }
 ::placeholder {
     color: map.get($colours, "Sand");
     opacity: 1; /* Firefox */
     font-size: 0.9375rem;
   }
+
+  //------------------Main
+.Main__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+    padding: 20px;
+
+}
+  .Main__titleIcons{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  
 

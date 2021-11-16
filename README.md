@@ -9,7 +9,7 @@ Fra settings panelet skal brugeren have mulighed for at administrere det kategor
 
 
 ### **Målet med opgaven er:**
-* At arbejde med automatisering(Gulp). 
+* At arbejde med automatisering(Gulp).                                                                                               
 * At arbejde med lagring af og data og indstillinger
 * At optimere brugeroplevelsen gennem microinteractions og animationer.
 * At få praktisk erfaring med Kanban.

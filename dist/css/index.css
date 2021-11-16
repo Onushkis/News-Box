@@ -35,6 +35,10 @@ body {
   font-weight: 700;
 }
 
+form {
+  border: solid 1px #E4E4E4;
+}
+
 .InputSeach {
   display: flex;
   align-items: center;
@@ -44,6 +48,7 @@ body {
   border-radius: 6px;
   background-color: #E4E4E4;
   color: #c8d1d3;
+  border: solid 1px #E4E4E4;
 }
 
 #mySearch {
@@ -58,4 +63,18 @@ body {
   opacity: 1;
   /* Firefox */
   font-size: 0.9375rem;
+}
+
+.Main__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 82px;
+  padding: 20px;
+}
+
+.Main__titleIcons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
